@@ -1,12 +1,11 @@
 {
-  "purpose": "User-approved nonsecurity Feedback package; no submission, acceptance or reward established",
-  "reviewArchiveSha256": "90e1887d37a86951301a89be7870fde95ae976f219a94fdf354ce91e329f890a",
-  "baselinePublicCommit": "b1ec751c0e9ed8ace96d45b852d16e55decfe276",
+  "purpose": "Reviewed nonsecurity Feedback continuation under user end-to-end instruction; no submission, acceptance or reward established",
+  "baselinePublicCommit": "c1f662db6c75cb72a4017ae97af60f9dcb831d9e",
   "files": [
     {
       "path": "README.md",
-      "sha256": "80db8a6ecd0cdd1f5e8f2e66017ff19884e011366c08dc86f113e825d2bf7485",
-      "bytes": 2037
+      "sha256": "9a009a74aef7dc0c91820808ac62809cce88bd61eeb14e4b77a3f33298d0d87f",
+      "bytes": 3389
     },
     {
       "path": "feedback/001-perps-entry-opens-spot.md",
@@ -107,6 +106,62 @@
       "path": "feedback/evidence/005-offline-maker-retry.json",
       "sha256": "e464c642f50f8f6c7b79fa2175f1cf586ab522291f19ec002783ce0c8d8c9f9d",
       "bytes": 6674
+    },
+    {
+      "path": "feedback/006-maker-cancel-failure-loses-tracking.md",
+      "sha256": "b5fa88341c599f8f1b986fa42b0537056bce8acbdddb3310fe2a0285adcc24b2",
+      "bytes": 6463
+    },
+    {
+      "path": "feedback/007-sdk-create-order-minimum.md",
+      "sha256": "028fe2b25a25b924206eab9f19ff7f37568687988bb1888a5b60d0f9f5a9a833",
+      "bytes": 6406
+    },
+    {
+      "path": "feedback/repro/006-maker-cancel-failure.mjs",
+      "sha256": "d7efcfabd3fa0c8a513f586547081ed36bda0044a53c00f7581de5f500d986a7",
+      "bytes": 4278
+    },
+    {
+      "path": "feedback/repro/007-sdk-perp-minimum.mjs",
+      "sha256": "dbef5b1daf267f35360e486bbb53e33f7352086474ac2f3e6c62749a83c2355d",
+      "bytes": 4705
+    },
+    {
+      "path": "feedback/evidence/006-offline-cancel-failure.json",
+      "sha256": "a581c6a07ba6a1383584ac589bfb0748a82428cc9b60a4b77d748549694251e0",
+      "bytes": 7195
+    },
+    {
+      "path": "feedback/evidence/007-btc-public-grid.json",
+      "sha256": "4ee92ba5bf011cb27917400a0565c72b49f5a281709eacc9655950102c67f3ec",
+      "bytes": 697
+    },
+    {
+      "path": "feedback/evidence/007-offline-sdk-minimum.json",
+      "sha256": "64f36b537e95f2b9117902618d4c67786c76830477ccb6b9de73c691a5284771",
+      "bytes": 4727
+    },
+    {
+      "path": "feedback/evidence/007-sdk-release-verification.json",
+      "sha256": "d23e414a54a62551e4237929a59e51eaf899189f72bbff3ed6d020bb392e7f99",
+      "bytes": 726
+    },
+    {
+      "path": "package.json",
+      "sha256": "97ee443025a306d2c2a89bd6bea17f0b15c98bc5b4f6d417e841aef7d305507c",
+      "bytes": 329
+    },
+    {
+      "path": "package-lock.json",
+      "sha256": "438ae132dbd8ffdc681e9d54a3007a3dedccdf39f5eac3b77b1c10a3100f3567",
+      "bytes": 10434
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "9c35212116ee03d350e92794895dc660aeab38c2ef987aa1f311c0d5519c37ba",
+      "bytes": 26
     }
-  ]
+  ],
+  "reviewArchiveSha256": "6e6f59ee6cfa5a2986153e699180699869f0545493626981168f2c13ab4e9a9b"
 }
