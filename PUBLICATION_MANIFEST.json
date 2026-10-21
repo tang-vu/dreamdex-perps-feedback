@@ -3,8 +3,8 @@
   "files": [
     {
       "path": "README.md",
-      "sha256": "b80c6abdb4873464637ba4a009de1cc3528d4c1e1c564eff5daff21774a50937",
-      "bytes": 714
+      "sha256": "bd90b4a3f473700ebd685b618563e9420ff9f725b80d5cadc64ec0eced695584",
+      "bytes": 707
     },
     {
       "path": "feedback/001-perps-entry-opens-spot.md",
