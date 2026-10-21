@@ -1,11 +1,11 @@
 {
-  "purpose": "Reviewed nonsecurity Feedback continuation under user end-to-end instruction; no submission, acceptance or reward established",
-  "baselinePublicCommit": "c1f662db6c75cb72a4017ae97af60f9dcb831d9e",
+  "purpose": "Verified nonsecurity Feedback continuation under user end-to-end instruction; no submission, acceptance or reward established",
+  "baselinePublicCommit": "e81ac63d91f0b5dfac7ccb2aac10a22822105df3",
   "files": [
     {
       "path": "README.md",
-      "sha256": "9a009a74aef7dc0c91820808ac62809cce88bd61eeb14e4b77a3f33298d0d87f",
-      "bytes": 3389
+      "sha256": "118d29b25a545a2bc985f4d22235cd072cf98847d672411a819063960a443b4f",
+      "bytes": 4276
     },
     {
       "path": "feedback/001-perps-entry-opens-spot.md",
@@ -149,8 +149,8 @@
     },
     {
       "path": "package.json",
-      "sha256": "97ee443025a306d2c2a89bd6bea17f0b15c98bc5b4f6d417e841aef7d305507c",
-      "bytes": 329
+      "sha256": "41b8eb0de8b4b924f4bc135cd87f3085002e964a454cceba3bb48a0753120929",
+      "bytes": 457
     },
     {
       "path": "package-lock.json",
@@ -161,7 +161,31 @@
       "path": ".gitignore",
       "sha256": "9c35212116ee03d350e92794895dc660aeab38c2ef987aa1f311c0d5519c37ba",
       "bytes": 26
+    },
+    {
+      "path": "feedback/008-sdk-funding-history-cursor.md",
+      "sha256": "91059685f7f06d6236c617e9af3f5bda8e03b03c3adec332a368dbacbe78a25c",
+      "bytes": 8771
+    },
+    {
+      "path": "feedback/repro/008-sdk-funding-cursor.mjs",
+      "sha256": "de42f94766477645921913f42b44b0adc076f1aa830394356a9c63f0b039d197",
+      "bytes": 8338
+    },
+    {
+      "path": "feedback/repro/008-public-funding-cursor.mjs",
+      "sha256": "271002a91d29b6c64853eb85289a991fa7077effbda908edba979b19df0b1529",
+      "bytes": 3666
+    },
+    {
+      "path": "feedback/evidence/008-public-funding-cursor.json",
+      "sha256": "b22793a05efad7afd289ad589ded418ee36dde062de4a964fd1e51c1ce4a0277",
+      "bytes": 1710
+    },
+    {
+      "path": "feedback/evidence/008-offline-funding-cursor.json",
+      "sha256": "c9a9f8517dfb1609697327793d832155fdd8760e862959af64ab0ba3bb02ca7e",
+      "bytes": 25578
     }
-  ],
-  "reviewArchiveSha256": "6e6f59ee6cfa5a2986153e699180699869f0545493626981168f2c13ab4e9a9b"
+  ]
 }

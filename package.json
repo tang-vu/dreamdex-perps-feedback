@@ -7,7 +7,9 @@
     "node": "24.x"
   },
   "scripts": {
-    "repro:007": "node feedback/repro/007-sdk-perp-minimum.mjs"
+    "repro:007": "node feedback/repro/007-sdk-perp-minimum.mjs",
+    "repro:008": "node feedback/repro/008-sdk-funding-cursor.mjs",
+    "repro:008:public": "node feedback/repro/008-public-funding-cursor.mjs"
   },
   "dependencies": {
     "@somnia-chain/markets-sdk": "0.32.1",
