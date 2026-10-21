@@ -1,0 +1,40 @@
+{
+  "purpose": "Reviewed nonsecurity Feedback-only publication package",
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "b80c6abdb4873464637ba4a009de1cc3528d4c1e1c564eff5daff21774a50937",
+      "bytes": 714
+    },
+    {
+      "path": "feedback/001-perps-entry-opens-spot.md",
+      "sha256": "45280053f96d4d6ee4fc5ad2931c88a475604b8acc2477a1960d18c665055547",
+      "bytes": 6411
+    },
+    {
+      "path": "feedback/repro/001-perps-entry-redirect.mjs",
+      "sha256": "0af5d7328da9243b73a3a793777be94d63b71eed6b7e88d51f1b49d48d4490c0",
+      "bytes": 1767
+    },
+    {
+      "path": "feedback/evidence/001-perps-docs-entry.jpg",
+      "sha256": "66055eb586e099713ed079043765bda938da3a8a432c05e8a56f878a2273bdc4",
+      "bytes": 133038
+    },
+    {
+      "path": "feedback/evidence/001-perps-entry-lands-on-spot.jpg",
+      "sha256": "73f439e31d317eb6a296dbcfd3c84ab17aba40c5c70e0ee0d9e1ded952d9ebf3",
+      "bytes": 142615
+    },
+    {
+      "path": "feedback/evidence/001-http-redirect.json",
+      "sha256": "c4ff045724a4c8857cb786f41bd63cf63a24823ec783ea03a046b14c61d90a16",
+      "bytes": 860
+    },
+    {
+      "path": "feedback/evidence/001-observations.json",
+      "sha256": "8c989cf387b28f9d77f73889a18e66cf02274b30a767c1db020398f23d6e9720",
+      "bytes": 1615
+    }
+  ]
+}
