@@ -1,11 +1,12 @@
 {
-  "purpose": "Reviewed nonsecurity Feedback-only publication package",
-  "baselinePublicCommit": "8ae7fa336d777ee6b00e73a8116d32c52ad992f3",
+  "purpose": "User-approved nonsecurity Feedback package; no submission, acceptance or reward established",
+  "reviewArchiveSha256": "90e1887d37a86951301a89be7870fde95ae976f219a94fdf354ce91e329f890a",
+  "baselinePublicCommit": "b1ec751c0e9ed8ace96d45b852d16e55decfe276",
   "files": [
     {
       "path": "README.md",
-      "sha256": "ec1467ef8bd7cc5656d793f13fa606a9d1d2ffb22580437427ff8b209b73a540",
-      "bytes": 1209
+      "sha256": "80db8a6ecd0cdd1f5e8f2e66017ff19884e011366c08dc86f113e825d2bf7485",
+      "bytes": 2037
     },
     {
       "path": "feedback/001-perps-entry-opens-spot.md",
@@ -44,13 +45,68 @@
     },
     {
       "path": "feedback/repro/002-existing-position-side.mjs",
-      "sha256": "569103585f77f48f87898be2331883911f925d16a764dc728fb6aeb26eb45f1e",
+      "sha256": "7e8b7be49919393ded88f6b70af161cf6b47ee4b50aa10669c1e2801b5501e41",
       "bytes": 7178
     },
     {
       "path": "feedback/evidence/002-offline-existing-position.json",
       "sha256": "53ad0b192776f61e161f7201a778f73cb0070dc9bf2e4ca7d2b623eaf2d979f7",
       "bytes": 4269
+    },
+    {
+      "path": "feedback/003-existing-position-entry-preflight.md",
+      "sha256": "0b7b7330b50b92d00cfdc3877cf65f8a8bd5a6ba47bcebec4374c822be35e373",
+      "bytes": 5332
+    },
+    {
+      "path": "feedback/004-maker-position-cap-semantics.md",
+      "sha256": "4e3c8b31048f991c5a5c87abc7219d314b4e2ba22188ddd986520c464ea11a52",
+      "bytes": 4965
+    },
+    {
+      "path": "feedback/005-maker-skipped-quote-retry.md",
+      "sha256": "65c40e0568afac85947b8b6579088c0e7c59b8c43f9bb2619a8474c333bbc858",
+      "bytes": 5442
+    },
+    {
+      "path": "feedback/repro/003-existing-position-preflight.mjs",
+      "sha256": "6102db679de980f911a252b862e68263a77c42a8f97c199061821bd1c652754c",
+      "bytes": 3048
+    },
+    {
+      "path": "feedback/repro/004-maker-position-limit.mjs",
+      "sha256": "5eb0a1ed20b9deeda6342536ad29a8316ff2422e4f6959f4bf3ff910ca958629",
+      "bytes": 1364
+    },
+    {
+      "path": "feedback/repro/005-maker-skipped-quote-retry.mjs",
+      "sha256": "ce42956f34f464181003e2afde71cac10565654f9c117ce03400ee5c15b329e6",
+      "bytes": 1471
+    },
+    {
+      "path": "feedback/repro/_botkit-offline.mjs",
+      "sha256": "f64d0e1a1a383361f8f59c6d42b75bb5959d37662cf4df46efae191462be0b2e",
+      "bytes": 4790
+    },
+    {
+      "path": "feedback/repro/_maker-offline.mjs",
+      "sha256": "93ff1a9026d3e90e2503ab7aa112cac5b9c3d4c1cd54fb03f385084efc981c05",
+      "bytes": 3971
+    },
+    {
+      "path": "feedback/evidence/003-offline-existing-preflight.json",
+      "sha256": "c6aeeef87dcbcb00bad1d657a56f5e451402d24d0587e5f12a3a65970fbb7ca2",
+      "bytes": 3912
+    },
+    {
+      "path": "feedback/evidence/004-offline-maker-limit.json",
+      "sha256": "d853a2b314a47bb56160d91370a5c5ed21f1323f1676d4b5f624442a70a38e90",
+      "bytes": 11064
+    },
+    {
+      "path": "feedback/evidence/005-offline-maker-retry.json",
+      "sha256": "e464c642f50f8f6c7b79fa2175f1cf586ab522291f19ec002783ce0c8d8c9f9d",
+      "bytes": 6674
     }
   ]
 }
