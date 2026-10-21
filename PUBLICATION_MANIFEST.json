@@ -1,10 +1,11 @@
 {
   "purpose": "Reviewed nonsecurity Feedback-only publication package",
+  "baselinePublicCommit": "8ae7fa336d777ee6b00e73a8116d32c52ad992f3",
   "files": [
     {
       "path": "README.md",
-      "sha256": "bd90b4a3f473700ebd685b618563e9420ff9f725b80d5cadc64ec0eced695584",
-      "bytes": 707
+      "sha256": "ec1467ef8bd7cc5656d793f13fa606a9d1d2ffb22580437427ff8b209b73a540",
+      "bytes": 1209
     },
     {
       "path": "feedback/001-perps-entry-opens-spot.md",
@@ -35,6 +36,21 @@
       "path": "feedback/evidence/001-observations.json",
       "sha256": "8c989cf387b28f9d77f73889a18e66cf02274b30a767c1db020398f23d6e9720",
       "bytes": 1615
+    },
+    {
+      "path": "feedback/002-existing-position-bracket-side.md",
+      "sha256": "65cb5d02cc2fdd722c9e329817e254ec03195b8d7059252bd409b69857b3e87c",
+      "bytes": 7804
+    },
+    {
+      "path": "feedback/repro/002-existing-position-side.mjs",
+      "sha256": "569103585f77f48f87898be2331883911f925d16a764dc728fb6aeb26eb45f1e",
+      "bytes": 7178
+    },
+    {
+      "path": "feedback/evidence/002-offline-existing-position.json",
+      "sha256": "53ad0b192776f61e161f7201a778f73cb0070dc9bf2e4ca7d2b623eaf2d979f7",
+      "bytes": 4269
     }
   ]
 }
