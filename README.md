@@ -1,6 +1,10 @@
 # dreamDEX Perps Feedback
 
-Eight issue-specific reports/candidates, proposed severity normal. No submission, acceptance or reward is established by this package.
+Eight issue-specific reports/candidates, proposed severity normal.
+
+On 2026-10-22 the user reported Feedback submission as [DoraHacks Build 50119](https://dorahacks.io/build/50119). Its public title and repository link were independently verified; hackathon-track registration was not exposed on the signed-out page. Organizer acceptance, first-valid-report priority and payment remain unverified.
+
+For the Build Details field, copy only [DORAHACKS_DESCRIPTION.txt](feedback/DORAHACKS_DESCRIPTION.txt). It contains the public report description and limitations, without internal submission workflow or obsolete pre-submission status.
 
 - [001: Perps entry redirects signed-out visitors to spot](feedback/001-perps-entry-opens-spot.md): actual Edge/HTTP observations.
 - [002: existing-position bracket side](feedback/002-existing-position-bracket-side.md): explicit offline synthetic source-code reproduction.
